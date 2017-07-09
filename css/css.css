@@ -1,0 +1,148 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+
+/*Fonts*/
+
+h1 {
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 50px;
+	display: inline;
+}
+h2 {
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 50px;
+	display: inline;
+	padding: 10px;
+}
+h3 {
+	font-family: 'Questrial', sans-serif;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+h4 {
+	font-family: 'Questrial', sans-serif;
+}
+p {
+	color: #9d9d9d;
+	font-family: 'Questrial', sans-serif;
+	font-size: 15px;
+}
+#timer {
+	font-family: 'Anton', sans-serif;
+	color: #ed1b24;
+}
+
+/*Navigation*/
+
+.navbar-nav {
+	margin-top: 0.5%;
+}
+.navbar-inverse {
+	background-color: #003145;
+	border-color: #00325D;
+}
+.navbar-inverse .navbar-toggle {
+	border-color: #005aa9;
+}
+
+/*Carousel*/
+
+.carousel {
+	height: 100%;
+}
+.item {
+	height: 100%;
+}
+.active {
+	height: 100%;
+}
+.carousel-inner {
+	height: 100%;
+}
+.bG {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+/* Content*/
+
+#content {
+	color: #fff;
+	height: 600px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	position: absolute;
+	top: 10%;
+	padding: 15px;
+}
+#timer {
+	font-size: 50px;
+}
+form {
+	margin-top: 10%;
+}
+#email {
+	width: 50%;
+	display: inline-block;
+}
+
+/*Animations*/
+
+.animate.fade-in {
+	opacity: 0;
+	-webkit-transition: all 4s linear;
+	-moz-transition: all 4s linear;
+	-o-transition: all 4s linear;
+	-ms-transition: all 4s linear;
+	transition: all 4s linear;
+}
+.animate.fade-in.visible {
+	opacity: 1;
+}
+.animate.slide-down {
+	margin-top: 1%;
+	-webkit-transition: all 4s linear;
+	-moz-transition: all 4s linear;
+	-o-transition: all 4s linear;
+	-ms-transition: all 4s linear;
+	transition: all 4s linear;
+}
+.animate.slide-down.visible {
+	margin-top: 10%;
+}
+
+/*Footer*/
+
+footer {
+	left: 0;
+	right: 0;
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	background-color: #003145;
+}
+.footerlink {
+	display: inline-block;
+	list-style: none;
+}
+.footerlink a {
+	color: #9d9d9d;
+}
+.footerlink a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.legal {
+	padding: 20px;
+	float: right;
+}
